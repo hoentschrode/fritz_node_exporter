@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 fritzconnection = "==1.5.0"
+yamldataclassconfig = "==1.5.0"
+prometheus-client = "==0.11.0"
 
 [dev-packages]
 pytest = "==6.2.4"
@@ -13,3 +15,7 @@ pytest-sugar = "==0.9.4"
 
 [requires]
 python_version = "3.9"
+
+[scripts]
+fritz_node_exporter = "python3 -m fritz_node_exporter"
+

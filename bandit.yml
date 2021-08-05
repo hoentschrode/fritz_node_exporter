@@ -1,2 +1,4 @@
 skips:
   - B101 # Ignore defensive `assert`s
+tests:
+  - B101 
